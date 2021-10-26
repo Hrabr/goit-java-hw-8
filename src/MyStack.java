@@ -41,10 +41,6 @@ public class MyStack<E> {
             firstNode = null;
             lastNode = null;
             size--;
-
-        } else if (node(index) == lastNode && index == 2) {
-            lastNode = firstNode;
-            size--;
         } else if (index == size - 1) {
             lastNode = node(index - 1);
             size--;
